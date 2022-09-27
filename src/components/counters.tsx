@@ -17,7 +17,7 @@ class Counters extends React.Component<CountersProps, CountersState> {
     return (
       <div className="flex flex-col justify-center items-center">
         <button
-          className="bg-yellow-400 px-2 py-2 shadow-black shadow-lg rounded-lg"
+          className="bg-yellow-400 px-2 py-2 shadow-black shadow-lg rounded-lg active:shadow-none active:translate-y-1"
           onClick={this.resetFunc}
         >
           Reset
